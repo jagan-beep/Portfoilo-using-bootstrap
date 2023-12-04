@@ -1,3 +1,39 @@
 #navbar {
   background-color: blue;
 }
+
+#intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+    "item1 item2 item2"
+    "item1 item4 item4";
+}
+
+.img-fluid {
+  width: 100%;
+  grid-area: item1;
+}
+
+.display-4 {
+  grid-area: item2;
+  text-align: center;
+  justify-content: flex-end;
+  padding-left: 20px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+}
+
+.lead {
+  grid-area: item4;
+  text-align: center;
+  padding-left: 40px;
+  background-color: beige;
+  border-radius: 20px;
+}
+
+.jumbo {
+  margin-top: 10px;
+  background-color: black;
+}
