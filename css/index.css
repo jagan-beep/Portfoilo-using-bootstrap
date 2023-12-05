@@ -60,3 +60,15 @@
   margin-top: 10px;
   background-color: #dcdcdc;
 }
+
+.footer {
+  border: 4px solid black;
+  border-radius: 25px;
+  background-color: #fdf5e6;
+  margin-top: 10px;
+}
+
+#color:hover {
+  background-color: #b22222;
+  text-decoration: none;
+}
